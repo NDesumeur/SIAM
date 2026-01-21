@@ -9,8 +9,6 @@ Le projet propose une version jouable du jeu Siam directement dans le navigateur
 - [Règles du jeu (rappel)](#règles-du-jeu-rappel)
 - [Installation & Lancement](#installation--lancement)
 - [Comment jouer](#comment-jouer)
-- [Structure du projet](#structure-du-projet)
-- [Pistes d’amélioration](#pistes-damélioration)
 - [Crédits](#crédits)
 
 ## Aperçu
