@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIAM</title>
+    <link rel="stylesheet" href="./SIAM.css">
+</head>
+<body>
+    <div id="jeu-container">
+
+        <div id="plateau" class="plateau"></div> 
+                    <div id="indicateur-container">
+                        <div id="title">SIAM</div>
+                        <div id="tour-text">TOUR DE : <img id="tour-image" src="./Images/Elephant1.png" alt="Tour Image" class="tour-image"></div>
+                        <div id="rotation-text">TOURNER LA PIECE</div>
+                        <div id="rotate-buttons" class="boutons">
+                            <button data-direction="haut">↑</button>
+                            <button data-direction="gauche">←</button>
+                            <button data-direction="droite">→</button>
+                            <button data-direction="bas">↓</button>
+                        </div>
+
+    <button id="end-turn-button" disabled>Finir le Tour</button>
+
+    <button id="reset-game-button">Réinitialiser le Jeu</button>
+
+                    </div>
+
+
+    </div>
+    <script src="./SIAM.js"></script>
+</body>
+</html>
